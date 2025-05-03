@@ -110,24 +110,29 @@ body{
     color: hsl(0, 100%, 74%);
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
     body{
+        background-image: url('../images/bg-intro-desktop.png');
         flex-flow: row;
         justify-content: center;
     }
     .header{
         text-align: start;
         margin: 0;
-        margin-inline-end: 4.5rem;
+        margin-inline-end: 4rem;
         padding: 0;
     }
     .header__h1{
         font-size: 3rem;
         font-weight: 700;
+        line-height: 1.2;
     }
     .header__p{
         margin-block-start: 1.875rem;
         font-size: 1rem;
+    }
+    .main{
+        margin-block-start: 2rem;
     }
     .main section{
         padding: 2.5rem 2.5rem;
