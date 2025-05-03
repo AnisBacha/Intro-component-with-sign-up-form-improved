@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../images/bg-intro-mobile.png');
+    background-color: hsl(0, 100%, 74%) ;
+    font-family: "Poppins";
+    text-align: center;
+
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.header{
+    padding-inline: 1.75rem;
+    margin-block: 6.25rem 4.375rem;
+    max-width: 495px;
+}
+
+.header__h1{
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+.header__p{
+    color: white;
+    margin-block-start: 2.5rem;
+}
+
+.main{
+    padding-inline: 1.75rem;
+    max-width: 595px;
+}
+.main__p{
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    padding: 1rem 4.5rem;
+    border-radius: 10px;
+    font-weight: 500;
+    box-shadow: 5px 5px 10px hsl(248, 35%, 31%);
+}
+.main__p span{
+    font-weight: 300;
+}
+
+.main section{
+    background-color: white;
+    padding: 1.5rem;
+    margin-block: 1.5rem 3rem;
+    border-radius: 10px;
+}
+.main section div{
+    margin-block-end: 1rem;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+
+}
+.main input{
+    font-family: "Poppins";
+    font-weight: 600;
+    padding: .5rem 1rem;
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 5px;
+    width: 100%;
+}
+.main button{
+    background-color: hsl(154, 59%, 51%);
+    font-weight: 600;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+.main__tos{
+    color: hsl(246, 25%, 77%);
+    font-size: .7rem;
+    padding-inline: 1.375rem;
+    margin-block-start: 1rem;
+}
+.main__tos span{
+    color: hsl(0, 100%, 74%) ;
+    font-weight: 600;
+}
+
+.main__error-msg{
+    display: none;
+    color: red;
+    font-style: italic;
+    font-size: .75rem;
+    float: right;
+    margin-block-start: .5rem;
+}
+
+.main__error-icon{
+    display: none;
+    font-size: .7rem;
+    position: absolute;
+    top: 30%;
+    right: 20px;
+    transform: translateY(-50%);
+    color: hsl(0, 100%, 74%);
+}
+
+@media screen and (min-width: 1024px) {
+    body{
+        flex-flow: row;
+        justify-content: center;
+    }
+    .header{
+        text-align: start;
+        margin: 0;
+        margin-inline-end: 4.5rem;
+        padding: 0;
+    }
+    .header__h1{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    .header__p{
+        margin-block-start: 1.875rem;
+        font-size: 1rem;
+    }
+    .main section{
+        padding: 2.5rem 2.5rem;
+    }
+    .main section div{
+        margin-block-end:  1.5rem;
+    }
+    .main input{
+        padding: 1rem 2rem;
+    }
+}

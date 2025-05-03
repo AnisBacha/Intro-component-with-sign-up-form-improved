@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <h1 class="header__h1">Learn to code by watching others</h1>
+  
+    <p class="header__p">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable. </p>
+  </header>
+
+  <main class="main">
+    <p class="main__p">Try it free 7 days <span>then $20/mo. thereafter</span></p>
+  
+    <section>
+      <div>
+        <input id="firstName" placeholder="First Name">
+        <p class="main__error-msg main__firstName-error">First Name cannot be empty</p>
+        <img class="main__error-icon main__firstName-error" src="./images/icon-error.svg" alt="icon-error">
+      </div>
+
+      <div>
+        <input id="lastName" placeholder="Last Name">
+        <p class="main__error-msg main__lastName-error">Last Name cannot be empty</p>
+        <img class="main__error-icon main__lastName-error" src="./images/icon-error.svg" alt="icon-error">
+      </div>
+
+      <div>
+        <input id="email" placeholder="Email Address">
+        <p class="main__error-msg main__email-error">Looks like this not an email</p>
+        <img class="main__error-icon main__email-error" src="./images/icon-error.svg" alt="icon-error">
+      </div>
+
+      <div>
+        <input id="password" placeholder="Password">
+        <p class="main__error-msg main__password-error">Password cannot be empty</p>
+        <img class="main__error-icon main__password-error" src="./images/icon-error.svg" alt="icon-error">
+      </div>
+    
+      <button id="button">CLAIM YOUR FREE TRIAL </button>
+    
+      <p class="main__tos">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+    </section>
+    <script src="./src/main.js"></script>
+  </main>
+  
+  
+</body>
+</html>
