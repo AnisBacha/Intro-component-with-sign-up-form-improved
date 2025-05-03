@@ -124,12 +124,12 @@ body{
     .header{
         text-align: start;
         margin: 0;
-        margin-inline-end: 3.75rem;
+        margin-inline-end: 3.5rem;
         padding: 0;
     }
     .header__h1{
         font-size: 3rem;
-        font-weight: 600;
+        font-weight: 700;
         line-height: 1.2;
     }
     .header__p{
