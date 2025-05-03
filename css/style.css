@@ -109,6 +109,11 @@ body{
     transform: translateY(-50%);
     color: hsl(0, 100%, 74%);
 }
+@media screen and (min-width: 1024px) {
+    .header__h1{
+        font-size: 2.5rem;
+    }
+}
 
 @media screen and (min-width: 1440px) {
     body{
@@ -119,12 +124,12 @@ body{
     .header{
         text-align: start;
         margin: 0;
-        margin-inline-end: 4rem;
+        margin-inline-end: 3.75rem;
         padding: 0;
     }
     .header__h1{
         font-size: 3rem;
-        font-weight: 700;
+        font-weight: 600;
         line-height: 1.2;
     }
     .header__p{
@@ -135,7 +140,7 @@ body{
         margin-block-start: 2rem;
     }
     .main section{
-        padding: 2.5rem 2.5rem;
+        padding: 2.5rem;
     }
     .main section div{
         margin-block-end:  1.5rem;
